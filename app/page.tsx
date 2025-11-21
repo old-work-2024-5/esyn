@@ -48,7 +48,7 @@ export default function Home() {
               </div>
               <div className="relative aspect-square md:aspect-[4/3] lg:aspect-square rounded-2xl overflow-hidden bg-muted">
                 <Image
-                  src="/avvenue/img3 (7).jpg"
+                  src="/avvenue/img3 (5).jpg"
                   alt="Gallery image 1"
                   fill
                   className="object-cover"
