@@ -48,7 +48,7 @@ export default function Home() {
               </div>
               <div className="relative aspect-square md:aspect-[4/3] lg:aspect-square rounded-2xl overflow-hidden bg-muted">
                 <Image
-                  src="/avvenue/img3 (5).jpg"
+                  src="/avvenue/img3 (1).jpg"
                   alt="Gallery image 1"
                   fill
                   className="object-cover"
@@ -116,7 +116,7 @@ export default function Home() {
               <div className="group relative bg-card border border-border/50 rounded-xl overflow-hidden hover:shadow-lg transition-all duration-300 flex flex-col">
                 <div className="aspect-[3/2] relative bg-muted">
                   <Image
-                    src="/avvenue/img3 (2).jpg"
+                    src="/avvenue/img3 (30).jpg"
                     alt="Gallery image 2"
                     fill
                     className="object-cover transition-transform duration-500 group-hover:scale-105"
@@ -162,7 +162,7 @@ export default function Home() {
               >
                 <div className="aspect-[3/2] relative bg-muted">
                   <Image
-                    src="/avvenue/img3 (3).jpg"
+                    src="/avvenue/img3 (31).jpg"
                     alt="Gallery image 3"
                     fill
                     className="object-cover transition-transform duration-500 group-hover:scale-105"
