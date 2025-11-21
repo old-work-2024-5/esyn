@@ -1,10 +1,10 @@
-import { Navbar } from "@/components/navbar"
-import { Footer } from "@/components/footer"
-import { Button } from "@/components/ui/button"
-import { ArrowRight, Calendar, MapPin, Clock, Heart } from "lucide-react"
-import Link from "next/link"
-import Image from "next/image"
-import { GallerySlideshow } from "@/components/gallery-slideshow"
+import { Navbar } from "@/components/navbar";
+import { Footer } from "@/components/footer";
+import { Button } from "@/components/ui/button";
+import { ArrowRight, Calendar, MapPin, Clock, Heart } from "lucide-react";
+import Link from "next/link";
+import Image from "next/image";
+import { GallerySlideshow } from "@/components/gallery-slideshow";
 
 export default function Home() {
   return (
@@ -26,8 +26,9 @@ export default function Home() {
                   Make an Impact.
                 </h1>
                 <p className="text-lg md:text-xl text-muted-foreground max-w-[500px] leading-relaxed">
-                  Join our free programs in West Hill and Scarborough. From sports and reading to mentorship and
-                  volunteering, we're here to help youth thrive.
+                  Join our free programs in West Hill and Scarborough. From
+                  sports and reading to mentorship and volunteering, we're here
+                  to help youth thrive.
                 </p>
                 <div className="flex flex-col sm:flex-row gap-4 pt-4">
                   <Button asChild size="lg" className="text-base h-12 px-8">
@@ -47,8 +48,8 @@ export default function Home() {
               </div>
               <div className="relative aspect-square md:aspect-[4/3] lg:aspect-square rounded-2xl overflow-hidden bg-muted">
                 <Image
-                  src="/diverse-group-of-happy-teenagers-playing-sports-an.jpg"
-                  alt="Youth engaging in community activities"
+                  src="/avvenue/img3 (7).jpg"
+                  alt="Gallery image 1"
                   fill
                   className="object-cover"
                   priority
@@ -65,15 +66,21 @@ export default function Home() {
               Dedicated to Creativity, Culture & Growth in Scarborough.
             </h2>
             <p className="text-lg md:text-xl text-muted-foreground leading-relaxed mb-12">
-              ESYN connects youth with local organizations, mentors, and opportunities. We believe that when life and
-              learning move in sync, the best growth happens. That's why we created spaces to pause, reset, and spark
-              the thinking that fuels not just school, but whole ways of being.
+              ESYN connects youth with local organizations, mentors, and
+              opportunities. We believe that when life and learning move in
+              sync, the best growth happens. That's why we created spaces to
+              pause, reset, and spark the thinking that fuels not just school,
+              but whole ways of being.
             </p>
             {/* Added Gallery Slideshow to the main page */}
             <div className="mt-12">
               <GallerySlideshow />
               <div className="mt-8">
-                <Button asChild variant="link" className="text-primary font-semibold">
+                <Button
+                  asChild
+                  variant="link"
+                  className="text-primary font-semibold"
+                >
                   <Link href="/gallery">View Full Gallery &rarr;</Link>
                 </Button>
               </div>
@@ -86,11 +93,21 @@ export default function Home() {
           <div className="container mx-auto px-4 md:px-6">
             <div className="flex flex-col md:flex-row justify-between items-end mb-12 gap-4">
               <div>
-                <h2 className="text-3xl md:text-4xl font-bold tracking-tight">Our Programs</h2>
-                <p className="text-muted-foreground mt-2">Free opportunities for youth to grow and connect.</p>
+                <h2 className="text-3xl md:text-4xl font-bold tracking-tight">
+                  Our Programs
+                </h2>
+                <p className="text-muted-foreground mt-2">
+                  Free opportunities for youth to grow and connect.
+                </p>
               </div>
-              <Button asChild variant="link" className="text-primary p-0 h-auto font-semibold">
-                <Link href="mailto:esynttoronto@gmail.com">Register for all programs &rarr;</Link>
+              <Button
+                asChild
+                variant="link"
+                className="text-primary p-0 h-auto font-semibold"
+              >
+                <Link href="mailto:esynttoronto@gmail.com">
+                  Register for all programs &rarr;
+                </Link>
               </Button>
             </div>
 
@@ -99,8 +116,8 @@ export default function Home() {
               <div className="group relative bg-card border border-border/50 rounded-xl overflow-hidden hover:shadow-lg transition-all duration-300 flex flex-col">
                 <div className="aspect-[3/2] relative bg-muted">
                   <Image
-                    src="/students-reading-books-and-playing-sports-in-a-gym.jpg"
-                    alt="After school program"
+                    src="/avvenue/img3 (2).jpg"
+                    alt="Gallery image 2"
                     fill
                     className="object-cover transition-transform duration-500 group-hover:scale-105"
                   />
@@ -109,9 +126,12 @@ export default function Home() {
                   </div>
                 </div>
                 <div className="p-6 flex flex-col flex-1">
-                  <h3 className="text-xl font-bold mb-2">After-School Sports & Reading</h3>
+                  <h3 className="text-xl font-bold mb-2">
+                    After-School Sports & Reading
+                  </h3>
                   <p className="text-muted-foreground mb-6 flex-1">
-                    Youth can build skills, stay active, and get academic support in a safe, welcoming environment.
+                    Youth can build skills, stay active, and get academic
+                    support in a safe, welcoming environment.
                   </p>
                   <div className="space-y-3 text-sm mb-6 border-t border-border pt-4">
                     <div className="flex items-center gap-3 text-foreground/80">
@@ -142,8 +162,8 @@ export default function Home() {
               >
                 <div className="aspect-[3/2] relative bg-muted">
                   <Image
-                    src="/mentor-talking-to-a-group-of-young-students-in-a-w.jpg"
-                    alt="Mentorship session"
+                    src="/avvenue/img3 (3).jpg"
+                    alt="Gallery image 3"
                     fill
                     className="object-cover transition-transform duration-500 group-hover:scale-105"
                   />
@@ -152,9 +172,12 @@ export default function Home() {
                   </div>
                 </div>
                 <div className="p-6 flex flex-col flex-1">
-                  <h3 className="text-xl font-bold mb-2">Youth Mentorship Session</h3>
+                  <h3 className="text-xl font-bold mb-2">
+                    Youth Mentorship Session
+                  </h3>
                   <p className="text-muted-foreground mb-6 flex-1">
-                    Connect with mentors, build confidence, and gain guidance for school, leadership, and life.
+                    Connect with mentors, build confidence, and gain guidance
+                    for school, leadership, and life.
                   </p>
                   <div className="space-y-3 text-sm mb-6 border-t border-border pt-4">
                     <div className="flex items-center gap-3 text-foreground/80">
@@ -171,7 +194,9 @@ export default function Home() {
                     </div>
                   </div>
                   <Button asChild className="w-full">
-                    <Link href="mailto:esynttoronto@gmail.com?subject=Register for Mentorship Session">Sign Up</Link>
+                    <Link href="mailto:esynttoronto@gmail.com?subject=Register for Mentorship Session">
+                      Sign Up
+                    </Link>
                   </Button>
                 </div>
               </div>
@@ -189,10 +214,13 @@ export default function Home() {
                     <div className="inline-flex items-center justify-center p-3 bg-white/10 rounded-lg mb-6">
                       <Heart className="h-6 w-6" />
                     </div>
-                    <h3 className="text-2xl font-bold mb-4">Need Volunteer Hours?</h3>
+                    <h3 className="text-2xl font-bold mb-4">
+                      Need Volunteer Hours?
+                    </h3>
                     <p className="text-primary-foreground/90 mb-6 leading-relaxed">
-                      ESYN connects youth with local organizations in West Hill and Scarborough. Sign up to gain
-                      experience, build skills, and make a community impact.
+                      ESYN connects youth with local organizations in West Hill
+                      and Scarborough. Sign up to gain experience, build skills,
+                      and make a community impact.
                     </p>
                     <ul className="space-y-3 mb-8">
                       <li className="flex items-center gap-2">
@@ -210,8 +238,14 @@ export default function Home() {
                     </ul>
                   </div>
 
-                  <Button asChild variant="secondary" className="w-full relative z-10 font-semibold">
-                    <Link href="mailto:ESYNtoronto@gmail.com?subject=Volunteer Inquiry">Get Started</Link>
+                  <Button
+                    asChild
+                    variant="secondary"
+                    className="w-full relative z-10 font-semibold"
+                  >
+                    <Link href="mailto:ESYNtoronto@gmail.com?subject=Volunteer Inquiry">
+                      Get Started
+                    </Link>
                   </Button>
                 </div>
               </div>
@@ -220,12 +254,18 @@ export default function Home() {
         </section>
 
         {/* CTA Section - Inspired by Typeform minimal CTA */}
-        <section id="contact" className="py-20 md:py-32 container mx-auto px-4 md:px-6">
+        <section
+          id="contact"
+          className="py-20 md:py-32 container mx-auto px-4 md:px-6"
+        >
           <div className="bg-muted rounded-3xl p-8 md:p-16 text-center max-w-4xl mx-auto">
-            <h2 className="text-3xl md:text-4xl font-bold tracking-tight mb-6">Ready to get involved?</h2>
+            <h2 className="text-3xl md:text-4xl font-bold tracking-tight mb-6">
+              Ready to get involved?
+            </h2>
             <p className="text-lg text-muted-foreground mb-8 max-w-2xl mx-auto">
-              Whether you're a student looking for programs, a parent seeking support, or a community member wanting to
-              help, we'd love to hear from you.
+              Whether you're a student looking for programs, a parent seeking
+              support, or a community member wanting to help, we'd love to hear
+              from you.
             </p>
             <div className="flex flex-col sm:flex-row gap-4 justify-center">
               <Button asChild size="lg" className="px-8">
@@ -234,7 +274,10 @@ export default function Home() {
             </div>
             <p className="mt-8 text-sm text-muted-foreground">
               Serving Scarborough & West Hill •{" "}
-              <a href="mailto:esynttoronto@gmail.com" className="underline hover:text-primary">
+              <a
+                href="mailto:esynttoronto@gmail.com"
+                className="underline hover:text-primary"
+              >
                 esynttoronto@gmail.com
               </a>
             </p>
@@ -244,5 +287,5 @@ export default function Home() {
 
       <Footer />
     </div>
-  )
+  );
 }
